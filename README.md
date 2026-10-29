@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Carta Fa464 is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://augment.market/c/carta-fa464
+Carta provides an end‑to‑end software suite that manages equity, cap tables, 409A valuations, SAFE financings, and secondary liquidity for private companies and funds. It also offers fund administration tools, tax and compliance workflows, and legal transaction automation for venture capital, private equity, and other private‑capital firms. The platform integrates AI‑native features and connectors for CRM, ERP, and other enterprise systems.
+
+**Areas:** Equity Management · Fund Administration · Legal Compliance · Cap Table · Valuation · Private Capital · CRM Integration · AI Automation
+
+## Carta Fa464 on APIs.io
+
+Everything profiled for Carta Fa464 is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/carta-fa464/](https://apis.io/providers/carta-fa464/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Carta API](https://apis.io/apis/carta-fa464/carta-api/) — Carta provides a developer API platform for managing private fund data and investor relations.
+- [Carta Fa464 V1Alpha1 API](https://apis.io/apis/carta-fa464/carta-fa464-v1alpha1-api/) — The V1Alpha1 API from Carta Fa464 — 10 operation(s) for v1alpha1.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [GetV1Alpha1InvestorsFirmsFirmidFundsFundidInvestmentsInvestm](https://apis.io/schemas/carta-fa464/carta-fa464-get-v1-alpha1-investors-firms-firmid-funds-fundid-investments-investm/)
+- [PostV1Alpha1FilesUploadRequest](https://apis.io/schemas/carta-fa464/carta-fa464-post-v1-alpha1-files-upload-request/)
+- [PostV1Alpha1FilesUploadResponse](https://apis.io/schemas/carta-fa464/carta-fa464-post-v1-alpha1-files-upload-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Carta Fa464 Context](https://apis.io/jsonld/carta-fa464/carta-fa464-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Carta Fa464 API Rules](https://apis.io/rules/carta-fa464/carta-fa464-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Carta Fa464 Authentication](https://apis.io/security/carta-fa464/carta-fa464-authentication/)
+- [Carta Fa464 Domain Security](https://apis.io/security/carta-fa464/carta-fa464-domain-security/)
+- [Carta Fa464 Trust Center](https://apis.io/security/carta-fa464/carta-fa464-trust-center/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Carta Fa464 Rate Limits](https://apis.io/rate-limits/carta-fa464/carta-fa464-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://carta.com)
+- [Documentation](https://docs.carta.com/)
+- [Getting started](https://docs.carta.com/api-platform/guides/getting-started/introduction)
+- [API reference](https://docs.carta.com/api-platform/reference/v-1-alpha-1-draft-issuers-create-draft-issuer)
+- [Blog](https://carta.com/blog/)
+- [Security](https://carta.com/security/generative-ai-at-carta/)
+- [Compliance](https://trust.carta.com/)
+- [Privacy policy](https://carta.com/privacy/)
+- [GitHub](https://github.com/carta)
+- [Status](https://status.carta.com/)
+
+## API Evangelist rating
+
+**Kin Score 38.6** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 20.1 |
+| Contract governance | 22.0 |
+| Operational transparency | 52.6 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 39.5 |
+
+**Agent readiness 30.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/carta-fa464/](https://apis.io/providers/carta-fa464/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Carta Fa464: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/carta-fa464/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
